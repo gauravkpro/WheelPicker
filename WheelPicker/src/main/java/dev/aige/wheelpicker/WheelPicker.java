@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker;
+package dev.aige.wheelpicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;

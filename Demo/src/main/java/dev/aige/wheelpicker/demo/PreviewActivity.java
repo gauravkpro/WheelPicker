@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker.demo;
+package dev.aige.wheelpicker.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.aigestudio.wheelpicker.WheelPicker;
+import dev.aige.wheelpicker.WheelPicker;
 
 /**
  * @author AigeStudio 2015-12-06

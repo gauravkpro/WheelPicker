@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker.widgets;
+package dev.aige.wheelpicker.widgets;
 
 import android.widget.TextView;
 

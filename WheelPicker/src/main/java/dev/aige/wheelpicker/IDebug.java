@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker;
+package dev.aige.wheelpicker;
 
 /**
  * 调试模式方法接口

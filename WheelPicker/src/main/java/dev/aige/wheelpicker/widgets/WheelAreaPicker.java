@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker.widgets;
+package dev.aige.wheelpicker.widgets;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -7,14 +7,14 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.aigestudio.wheelpicker.WheelPicker;
-import com.aigestudio.wheelpicker.model.City;
-import com.aigestudio.wheelpicker.model.Province;
-
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.List;
+
+import dev.aige.wheelpicker.WheelPicker;
+import dev.aige.wheelpicker.model.City;
+import dev.aige.wheelpicker.model.Province;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker.widgets;
+package dev.aige.wheelpicker.widgets;
 
 /**
  * Created by Administrator on 2016/9/27 0027.

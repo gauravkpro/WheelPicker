@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker.model;
+package dev.aige.wheelpicker.model;
 
 
 import java.io.Serializable;

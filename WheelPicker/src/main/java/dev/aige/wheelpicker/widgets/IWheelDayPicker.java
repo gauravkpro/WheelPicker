@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker.widgets;
+package dev.aige.wheelpicker.widgets;
 
 /**
  * 选择器方法接口

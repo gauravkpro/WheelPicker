@@ -1,4 +1,4 @@
-package com.aigestudio.wheelpicker;
+package dev.aige.wheelpicker;
 
 import android.graphics.Typeface;
 
