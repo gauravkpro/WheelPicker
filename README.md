@@ -1,4 +1,3 @@
-![Banner](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/Banner.jpg)
 
 ***
 
@@ -9,34 +8,15 @@
 [![QQ](https://img.shields.io/badge/QQ-1994099479-red.svg)](http://sighttp.qq.com/authd?IDKEY=404d62c783d5c76e312f4c9fa65819d75ce648bff94b8cd6) [![QQGroup](https://img.shields.io/badge/QQ%E7%BE%A4-361739851-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=a62502df9a8f2f24f20f978070a9c93238c1fe91db8888dda78214cb83dc6002) [![Mail](https://img.shields.io/badge/mail-aigestudio%40qq.com-orange.svg)](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i_ri7O74--7v4uTL_vql6OTm) [![Sina](https://img.shields.io/badge/Sina-%40AigeStudio-red.svg)](http://weibo.com/aigestudio) [![Twitter](https://img.shields.io/badge/Twitter-%40AigeStudio-blue.svg)](https://twitter.com/AigeStudio)
 
 # Preview
-![Preview](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/Preview.gif)
+![Preview](https://github.com/gauravkpro/WheelPicker/blob/main/Previews/main/Preview.gif)
 
 # Demo
-[WheelPicke.APK](https://github.com/AigeStudio/WheelPicker/blob/main/APK/Demo.apk)
+[WheelPicke.APK](https://github.com/gauravkpro/WheelPicker/blob/main/APK/Demo.apk)
 
 # Include
-### Compile
+###  build.gradle
 ```Gradle
-compile 'cn.aigestudio.wheelpicker:WheelPicker:1.1.3'
-```
-or
-```Maven
-<dependency>
-  <groupId>cn.aigestudio.wheelpicker</groupId>
-  <artifactId>WheelPicker</artifactId>
-  <version>1.1.3</version>
-  <type>pom</type>
-</dependency>
-```
-or
-```Ivy
-<dependency org='cn.aigestudio.wheelpicker' name='WheelPicker' rev='1.1.3'>
-  <artifact name='$AID' ext='pom'></artifact>
-</dependency>
-```
-
-### Import aar
-[WheelPicker-1.1.3.aar](https://dl.bintray.com/aigestudio/maven/cn/aigestudio/wheelpicker/WheelPicker/1.1.3/WheelPicker-1.1.3.aar)
+ implementation 'com.github.gauravkpro:WheelPicker:1.1.1'
 
 ### Import Module
 1.Import moudle WheelPicker in your project.
@@ -59,28 +39,11 @@ compile project(':WheelPicker')
 ```
 
 # Usage
-[WIKI](https://github.com/AigeStudio/WheelPicker/wiki/WIKI) | [帮助文档](https://github.com/AigeStudio/WheelPicker/wiki/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
+[WIKI](https://github.com/gauravkpro/WheelPicker/wiki/WIKI) | [帮助文档](https://github.com/gauravkpro/WheelPicker/wiki/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
 
 # Versions
-### 1.0.0 beta
-* Preview for WheelPicker and support few function.
 
-### 1.0.1 beta
-* BugFix:Cache in WheelCuredPicker can not clean...a stupid mistake.
-
-### 1.0.2 beta
-* BugFix:MotionEvent lost when point outside of view in WheelCurvedPicker
-
-### 1.0.3 beta
-* BugFix:Error parameter after scroll using setXXX method
-
-### 1.1.0 Stable
-* Refactor project fix all known bug and some function additions
-* I will create a tag for old beta version but not be updated anymore
-* 重构项目发布稳定版修复测试版所有BUG以及新增功能
-* Beta版本会打上TAG方便老版本过渡但不再更新
-
-### 1.1.1
+### 1.1.1 Stable
 * BugFix:Scroll automatically when touch but not move on WheelPicker in some low resolution phone
 * BugFix:Scroll range incorrect when invoke setData twice and set data source's length less than last
 * BugFix:Wheel state do not refresh when invoke setData twice and set data source's length-1 less than last selected position
@@ -139,7 +102,7 @@ compile project(':WheelPicker')
 
 # Widgets
 ## WheelDatePicker
-![WheelDatePicker](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/WheelDatePicker.gif)
+![WheelDatePicker](https://github.com/gauravkpro/WheelPicker/blob/main/Previews/main/WheelDatePicker.gif)
 ### Method
 * setVisibleItemCount
 * setCyclic
@@ -163,7 +126,7 @@ compile project(':WheelPicker')
 * etc...
 
 ## WheelYearPicker
-![WheelYearPicker](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/WheelYearPicker.gif)
+![WheelYearPicker](https://github.com/gauravkproWheelPicker/blob/main/Previews/main/WheelYearPicker.gif)
 ### Method
 * All method of WheelPicker
 * setYearFrame
@@ -173,14 +136,14 @@ compile project(':WheelPicker')
 * getCurrentYear
 
 ## WheelMonthPicker
-![WheelMonthPicker](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/WheelMonthPicker.gif)
+![WheelMonthPicker](https://github.com/gauravkpro/WheelPicker/blob/main/Previews/main/WheelMonthPicker.gif)
 ### Method
 * All method of WheelPicker
 * set/getSelectedMonth
 * getCurrentMonth
 
 ## WheelDayPicker
-![WheelDayPicker](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/WheelDayPicker.gif)
+![WheelDayPicker](https://github.com/gauravkpro/WheelPicker/blob/main/Previews/main/WheelDayPicker.gif)
 ### Method
 * All method of WheelPicker
 * set/getSelectedDay
@@ -197,16 +160,15 @@ compile project(':WheelPicker')
 # Donation
 如果您觉得该项目帮助了您那不妨赏小弟一杯咖啡钱 :)
 
-![Pay](https://github.com/AigeStudio/WheelPicker/blob/main/Previews/main/Pay.png)
+![Pay](https://github.com/gauravkpro/WheelPicker/blob/main/Previews/main/Pay.png)
 
 You can support the project and thank the author for his hard work :)
 
-* PayPal:xiaoaibaby@vip.qq.com
 
 ***
 
 # LICENSE
-Copyright 2015-2017 [AigeStudio](https://github.com/AigeStudio)
+Copyright 2015-2017 [gauravkpro](https://github.com/gauravkpro)
 
 Licensed under the Apache License, Version 2.0 (the "License");you may not use this file except in compliance with the License.
 
