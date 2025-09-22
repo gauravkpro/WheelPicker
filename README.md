@@ -16,7 +16,7 @@
 # Include
 ###  build.gradle
 ```Gradle
- implementation 'com.github.gauravkpro:WheelPicker:1.1.1'
+ implementation 'com.github.gauravkpro:WheelPicker:1.1.6'
 
 ### Import Module
 1.Import moudle WheelPicker in your project.
